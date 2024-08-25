@@ -1,0 +1,23 @@
+{
+  "name": "anytype-capture",
+  "version": "1.0.0",
+  "description": "A simple program to quickly capture any thought on AnyType",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "anytype",
+    "capture",
+    "cli"
+  ],
+  "author": "Eban Rami",
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.9",
+    "@grpc/proto-loader": "^0.7.13",
+    "dotenv": "^16.4.5",
+    "prompt-sync": "^4.2.0"
+  }
+}
