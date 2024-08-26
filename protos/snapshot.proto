@@ -2,8 +2,8 @@ syntax = "proto3";
 package anytype;
 option go_package = "pb";
 
-import "pkg/lib/pb/model/protos/models.proto";
-import "pb/protos/changes.proto";
+import "models.proto";
+import "changes.proto";
 
 message SnapshotWithType {
   anytype.model.SmartBlockType sbType = 1;
